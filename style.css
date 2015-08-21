@@ -1,0 +1,218 @@
+/*
+Theme Name: working
+Theme URI: 
+Author: pvt
+Author URI: http://tidythemes.com/
+Description: <strong>UPDATE</strong> - 4.0+ is here, completely overhauled, yet again. As always, <a href="http://tidythemes.com/concept/#upgrading">use caution when upgrading</a> (tidythemes.com/concept/#upgrading) and <a href="http://tidythemes.com/concept/">learn the TidyThemes concept</a> (tidythemes.com/concept). &nbsp; &rarr; <em><strong>CAUTION</strong>: If you're child theming or have clients that are child theming on top of BlankSlate (not the recommended use), please do not blindly upgrade to newer versions.</em> &nbsp; &rarr; <strong>DESCRIPTION</strong>: BlankSlate is the definitive WordPress HTML5 boilerplate starter theme. We've carefully constructed the most clean and minimalist theme available anywhere for designers/developers to use as a base/foundation to build websites for clients or to build completely custom themes from scratch to release faster. Clean, semi-minified, unformatted and valid code, SEO-friendly, no programmer comments, standardized and as white label as possible and most importantly, CSS reset for cross-browser-compatability and no intrusive visual CSS styles added whatsoever. A perfect skeleton theme that blows any others like it (the subsequent underscores.me for example) completely out of the water, as they're simply too overcomplicated for what people really want in this kind of theme. Now comes with jQuery enqueued and ready to go. &nbsp; &rarr; <strong>SUPPORT</strong>: Please use the <a href="http://tidythemes.com/forum/">official support forum</a> (tidythemes.com/forum). Comments and suggestions for improving BlankSlate, please see "<a href="http://tidythemes.com/tidythemes-sucks/">TidyThemes Sucks!</a>" (tidythemes.com/tidythemes-sucks). Just getting started? <a href="http://tidythemes.com/want-to-learn-css/">Want to learn CSS?</a> (tidythemes.com/want-to-learn-css) &nbsp; &rarr; <strong>WHAT'S NEW?</strong>: We stripped down as much custom, extraneous, superfluous junk code as we could and greatly improved the HTML5 structure. <a href="http://make.wordpress.org/themes/author/chipbennett/">Chip Bennett</a> (make.wordpress.org/themes/author/chipbennett), a highly experienced programmer and official WordPress administrator, worked closely with us to audit the theme code for quality. <a href="http://themes.trac.wordpress.org/changeset?old_path=/blankslate/3.3&new_path=/blankslate/4.0">See</a> (themes.trac.wordpress.org/changeset?old_path=/blankslate/3.3&new_path=/blankslate/4.0) just how much we've revamped things. Last, but not least, BlankSlate has now been <a href="https://github.com/tidythemes/blankslate">opened up on GitHub</a> (github.com/tidythemes/blankslate) if anyone would like to make suggested code additions/improvements. Thank you for using BlankSlate.
+Version: 4.0.2
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: black, blue, white, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Text Domain: blankslate
+
+BlankSlate WordPress Theme © 2011-2014 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+html {  font-family:"Arial", Helvetica, sans-serif; /* 1 */  -ms-text-size-adjust: 100%; /* 2 */  -webkit-text-size-adjust: 100%; /* 2 */}body {margin: 0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+audio,canvas,progress,video {  display: inline-block; /* 1 */  vertical-align: baseline; /* 2 */}
+audio:not([controls]) {display: none;height: 0;}
+[hidden],template {display: none;}
+a {  background-color: transparent;}
+a:active,a:hover {outline: 0;}
+abbr[title] {border-bottom: 1px dotted;}
+b,strong {font-weight: bold;}
+dfn {font-style: italic;}
+h1 {}
+mark { background: #ff0;color: #000;}
+small {font-size: 80%;}
+sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+img {border: 0;}
+svg:not(:root) {overflow: hidden;}
+figure {margin: 1em 40px;}
+hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0;}
+pre {overflow: auto;}
+code,kbd,pre,samp {font-family: monospace, monospace;font-size: 1em;}
+button,input,optgroup,select,textarea {color: inherit; /* 1 */font: inherit; /* 2 */margin: 0; /* 3 */}
+button {overflow: visible;}
+button,select {text-transform: none;}
+button,html input[type="button"], /* 1 */
+input[type="reset"],input[type="submit"] {  -webkit-appearance: button; /* 2 */cursor: pointer; /* 3 */}
+button[disabled],html input[disabled] {cursor: default;}
+button::-moz-focus-inner,input::-moz-focus-inner {border: 0;padding: 0;}
+input {line-height: normal;}
+input[type="checkbox"],input[type="radio"] {box-sizing: border-box; /* 1 */padding: 0; /* 2 */}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height: auto;}
+input[type="search"] {-webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box;-webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+fieldset {border: 1px solid #c0c0c0;margin: 0 2px;padding: 0.35em 0.625em 0.75em;}
+legend {border: 0; /* 1 */padding: 0; /* 2 */}
+textarea {overflow: auto;}
+optgroup {  font-weight: bold;}
+table {border-collapse: collapse;border-spacing: 0;}
+td,th {padding: 0;}
+.clear{clear:both;}
+*{padding:0px; margin:0px}
+a{text-decoration: none; color:black; display:block;}
+ul{padding: 0px; margin: 0px;}
+/*------ End RESET-----*/
+body{background:url(images/bg_body_head.png) top 50px left no-repeat;background-color: #5574C1;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.42857;color: #333;}
+#tm_wrapper{width:1060px;margin: 0px auto;background:white;position: relative;}
+#tm_wrap{width:960px;margin:0px auto}
+.nivo-controlNav{display: none;}
+header{width: 960px;height: 260px;}
+header img{width:960px; height:260px;}
+nav{padding:3px 0px;}
+nav ul{background:url(images/bg_menu.jpg) repeat-x;list-style-type: none;overflow: hidden;}
+nav ul li{float:left;border-left: 1px solid #0F59A0;}
+nav ul li a{height: 30px;line-height: 30px;color:white;font-weight: bold;font-size: 14px;padding: 0px 23px;border-left: 1px solid #484848;}
+nav ul li a:hover{color: #9C93FF;}
+nav ul li a.active{color: #9C93FF;}
+nav#tm_box_menu{display: none;width: 270px;position: absolute;top: 0px;z-index: 1000;left: -270px;}
+nav#tm_box_menu form{background: #333;padding: 7px;}
+nav#tm_box_menu form input{}
+nav#tm_box_menu form input#s_txt{margin-left: 9px;height: 28px;width: 222px;padding-left: 15px;background: #555 ;color: #AEAEAE;border: medium none;font-size: 12px;}
+nav#tm_box_menu img{position: absolute;top: 0px;right: -44px;cursor: pointer;}
+nav#tm_box_menu ul{background:#555}
+nav#tm_box_menu ul li{float: none;background:#555;border: none;border-bottom: 1px solid #484848;}
+nav#tm_box_menu ul li:hover{background: #666;}
+nav#tm_box_menu ul li a{padding: 5px 0px 5px 10px;color: #FFF;font-size: 14px;font-weight: bold;display: inline-block;}
+nav#tm_box_menu ul li a:hover{color: white;}
+nav#tm_box_menu ul li ul.sub-menu{padding-left: 15px;border: none;}
+body.home nav ul li:first-child a{color: #9C93FF;}
+body.category nav ul li:nth-child(3) a,body.single nav ul li:nth-child(3) a{color: #9C93FF;}
+div#main #sidebar{width: 236px;float:left;margin-right: 5px;position: relative;}
+div#main #sidebar ul{list-style-type: none;}
+div#main #sidebar ul li{border-bottom: 1px solid #FFF;color: #024F9D;list-style: inside none square;list-style-type: square;list-style-image: none;list-style-position: inside;padding: 5px 0px 5px 8px;background: url(images/bg_menu_new.jpg);}
+div#main #sidebar ul li:hover{background: #E3F0FF}
+div#main #sidebar ul li a{color: #024F9D;font-size: 12px;font-weight: bold;margin-left: 0px;display:inline}
+div#main #sidebar #tit_sanpham{width:36px;height: 170px;background:url(images/h3_sp.png); position: absolute;top: 0;left: -36px;}
+div#main #sidebar #timkiem{background: #F89B4D;width: 236px;height: 40px;}
+div#main #sidebar #timkiem input{display: inline-block}
+div#main #sidebar #timkiem form div{position: relative;}
+div#main #sidebar #timkiem input#s{border-radius: 4px 0px 0px 4px;font-size: 12px;height: 11px;margin: 10px -2px 10px 29px;padding: 4px;width: 147px;color: #333;border: medium none;}
+div#main #sidebar #timkiem input#searchsubmit{position: absolute;  top: 9px;height: 22px ;width: 28px;background:url(images/search_btn.PNG) top 2px left 0px no-repeat;border: none;background-color: #C15703;padding-bottom: 2px;border-radius: 0px 4px 4px 0px;}
+div#main #sidebar #hotro{padding:5px 5px 10px 5px;background: #F9F9F9 }
+div#main #sidebar #chungchi{background: transparent url("images/bg_head_block.jpg") no-repeat scroll 0px 0px;
+color: #FFF;width: 100%;background-color: #f9f9f9;font-size: 16px;font-weight: bold;padding: 6px 0px 2px;text-align: center;}
+div#main #sidebar #slide_marquee{background: #F9F9F9 }
+div#main #sidebar #slide_marquee img{width:100%}
+div#main #sidebar #hotro h2{background: url("images/bg_head_block.jpg") no-repeat scroll 0px 0px;color: #FFF;font-size: 16px;font-weight: bold;padding: 6px 0px 5px;text-align: center;}
+div#main #content{float:left;width: 719px;}
+div#main #content #slider{ width:718px;margin-bottom: 20px;}
+div#main #content #slider img{width:100%;}
+div#main #content #slider #slider_img img{height: 280px;}
+div#main #content .title_box {background: transparent url("images/bg_bar.jpg") no-repeat scroll 0px 0px;margin: 5px 0px;}
+div#main #content .title_box h1 a{background: transparent url("images/bg_bar2.jpg") repeat-x scroll 0px 0px;color: #5D5D5D;display: block;font-size: 13px;font-weight: bold;height: 27px;line-height: 25px;margin-left: 16px;padding-left: 7px;}
+div#main #content #box_sp{padding-top: 10px;border-bottom: 1px solid #D9D9D9;padding-bottom:20px;border-bottom: 1px solid #D9D9D9;overflow: hidden;}
+div#main #content #box_sp ul{list-style-type: none;}
+div#main #content #box_sp ul li{padding:15px 15px 0px 15px;float: left;border-bottom: 1px solid #D9D9D9;border-right: 1px solid #D9D9D9;float: left;height: 226px;width: 239px;box-sizing: border-box;}
+div#main #content #box_sp ul li img{border-radius: 0px;display: table-cell;max-height: 148px;max-width: 208px;text-align: center;vertical-align: middle;margin-bottom: 15px;}
+div#main #content #box_sp ul li a{color: #074A99;font-size: 14px;font-weight: bold;line-height: normal;text-align: center;}
+div#main #content #box_news{padding-top: 20px;}
+div#main #content .tab1{border-bottom: 1px solid #CCC;margin-bottom:10px }
+div#main #content .tab1 #icon img{position: absolute;left: 92px;top:2px;vertical-align: middle;box-sizing: border-box;}
+div#main #content .tab1 a{-moz-border-right-colors: none;-moz-border-top-colors: none;-webkit-border-right-colors: none;-webkit-border-top-colors: none;background: #FFF none repeat scroll 0px 0px;border-color: #257530 #CCC -moz-use-text-color;border-color: #257530 #CCC -webkit-use-text-color;border-width: 2px 1px medium;color: #222;display: block;font-size: 15px;font-weight: bold;margin-bottom: -1px;padding: 3px;text-align: center;width: 83px;border-style: solid solid none;border-image: none;-wibkit-border-left-colors: none;-moz-border-left-colors: none;-webkit-border-bottom-colors: none;-moz-border-bottom-colors: none;}
+div#main #content .news_detail img{width:220px;height: 171px;float:left;margin-right:10px;}
+div#main #content .news_detail h4 a{color:#333;display: block;font-size: 15px;font-weight: bold;padding: 10px;}
+div#main #content .news_detail h4 a:hover{color:#2A6496;}
+div#main #content .news_detail ul#tinlienquan{margin:10px;}
+div#main #content .news_detail ul#tinlienquan li a{color:#0046A0}
+div#main #content .news_detail ul#tinlienquan li a:hover{color:#2A6496}
+body.category a#name_cat{border-bottom: 1px solid #CCC;display: block;font-size: 21px;line-height: normal;margin: 3px 3px 10px;padding: 10px;color:#5C5C5C}
+body.category div#main #content #slider{margin-bottom:25px;}
+body.single #content #sanpham{padding: 10px;}
+body.single #content #sanpham #product{overflow: hidden;}
+body.single #content #sanpham #product .tab1_sg{margin-bottom:0px}
+body.single #content #sanpham #product #sp img{max-width: 55%;float: left;margin-right: 20px;}
+body.single #content #sanpham #product img{width:100%;height:auto;}
+body.single #content #sanpham #product a{font-size: 21px;color:#333;font-weight: normal;margin-top:20px}
+body.single #content #sanpham #product a:hover{color:#2A6496;}
+body.single #content #sanpham #product #chitiet_sp{margin-bottom:20px;padding: 15px;border-bottom: 1px solid #CCC;border-left: 1px solid #CCC;border-right: 1px solid #CCC;}
+body.category div#main #content .title_box,body.single div#main #content .title_box{margin-top:20px}
+body.single div#main #content .tab1 a{width:210px;font-size: 15px !important;font-weight: bold !important;color:#222 !important;}
+body.single #content #sp_lienquan #sanphamtrongnhom{background: #ECECEC;border: 1px solid #CCC;border-radius: 5px;margin-bottom: 15px;padding: 7px;}
+body.single #content #sp_lienquan #sanphamtrongnhom h3{color: #000;font-family: tahoma;font-size: 16px;font-weight: bold;}
+body.single #content #sp_lienquan ul{list-style-type: none;}
+body.single #content #sp_lienquan ul li{padding: 15px 15px 0px;border-bottom: 1px solid #D9D9D9;border-right: 1px solid #D9D9D9;float: left;height: 226px;width: 232px;box-sizing: border-box;}
+body.single #content #sp_lienquan ul li a{color: #074A99;font-size: 14px;font-weight: bold;line-height: normal;text-align: center;}
+body.single #content #sp_lienquan ul li img{border-radius: 0px;display: table-cell;max-height: 148px;max-width: 208px;text-align: center;vertical-align: middle;margin-bottom: 15px;}
+body.page div#main #content .title_box h1 a{margin-top: 20px;}
+body.category-13 nav ul li:nth-child(3) a,body.category-14 nav ul li:nth-child(3) a{color:white !important}
+body.page form.wpcf7-form p{padding:7px 0px}
+body.page form.wpcf7-form p input{padding: 3px 5px;}
+body.page form.wpcf7-form p textarea{width: 550px;padding: 5px 5px;}
+
+body.category-15 #cat_sanpham{}
+body.category-15 #cat_sanpham img{border-radius: 0px;display: table-cell;height: 148px;width: 208px;text-align: center;vertical-align: middle;margin-bottom: 15px;}
+body.category-15 #cat_sanpham ul{list-style-type: none;overflow: hidden;}
+body.category-15 #cat_sanpham ul#cat_par{}
+body.category-15 #cat_sanpham ul#cat_par li{padding-bottom: 20px;}
+body.category-15 #cat_sanpham ul#cat_par li h2{border-bottom: 1px solid #CCC;display: block;font-size: 21px;line-height: normal;margin: 3px 3px 10px;padding: 10px;color: #5C5C5C;}
+body.category-15 #cat_sanpham ul#cat_par li ul{}
+body.category-15 #cat_sanpham ul#cat_par li ul li{padding: 15px 15px 0px;border-bottom: 1px solid #D9D9D9;border-right: 1px solid #D9D9D9;float: left;height: 226px;width: 239px;box-sizing: border-box;}
+body.category-15 #cat_sanpham ul#cat_par li ul li a{color: #074A99;font-size: 14px;font-weight: bold;line-height: normal;text-align: center;}
+footer{border-top: 2px solid #ADADAD;padding:15px 10px 10px 0px}
+footer #footer_info p{font-size: 11px;font-weight: bold;color:#597dbb;}
+.ToTop{width:10px;height:10px;position:fixed;top: 565px;
+right: 50px;;display:none;}
+.ToTop:hover{text-decoration:none; }
+.slider-wrapper{height:280px}
+#slider_img{height:280px}
+
+@media screen and (max-width:980px){
+    #tm_wrapper{width:96%;overflow: hidden;min-height: 780px;}
+    #tm_wrap{width:100%;}
+    header{width:100%;height: 150px;} 
+    header img{width:100%;height: 150px;}
+    nav{display:none;} #sidebar{display: none;} #slider{width:100%}
+    #main{width:100%} div#main #content{width:100%}
+    div#main #content #box_sp ul li{padding: 15px 2% 0px;width:33%;}
+    div#main #content #box_sp ul li img{width:100%;max-width:500px;max-height: 145px;}
+    body.single #content #sanpham #product #sp img{height: auto;}
+    nav#tm_box_menu{display: block;}
+    div#main #content #slider{width:100%}
+    body.single #content #sp_lienquan ul li{width:33.3%}
+     body.single #content #sp_lienquan ul li img {width: 100%;max-width: 500px;}
+     div#main #content #slider{margin-top:10px}
+     iframe{display: none;}
+     footer{padding-left: 10px;}
+     div#main #content #sanpham img{width:80%;height:auto}
+}
+
+@media screen and (max-width:480px){
+    #tm_wrapper{width:96%;}
+    #tm_wrap{width:100%}
+    header{width:100%;height: 150px;} 
+    header img{width:100%;height: 150px;}
+    nav{display:none;} #sidebar{display: none;} #slider{display: none;}
+    #main{width:100%} div#main #content{width:100%}
+    div#main #content #box_sp ul li{width:100%;height: auto;padding-bottom: 10px;}
+    div#main #content #box_sp ul li img{width:85%;max-width:500px;max-height: 220px;}
+    body.single #content #sanpham #product #sp img{height:125px}
+    div#main #content .title_box {margin-top: 15px;}
+    body.single #content #sp_lienquan ul li{width:100%}
+    body.single #content #sp_lienquan ul li img {max-width: 500px;width:80%;max-height: 500px;height: 200px;}
+    body.single #content #sp_lienquan ul li {height: 265px;}
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
